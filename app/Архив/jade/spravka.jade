@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    include include/head.jade
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700italic,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  body
+    include include/header.jade      
+    div.wrapper
+        section.administraiton--home--image(style="background: url(img/spravkabg.jpg)")
+            .content
+                .middle
+                    h1 Смоленская область
+        section.administraiton--home--section
+            .content
+                include include/ad-sub-menu.jade
+                .right--block
+                    .title--block(style="background: url(img/bg-title-block8.jpg)")
+                        .middle
+                            h2 Справка о регионе
+                    article
+                       p <b>Статус:</b> Субъект РФ <br><b>Административный центр:</b> г. Смоленск <br><b>Дата образования:</b> 27 сентября 1937 г. <br><b>Площадь:</b> 49779 км2 (0,3 % территории РФ) <br><b>Население:</b> 959 088 человек (по данным Росстат) <br><b>Часовой пояс:</b> UTC+3/MSK <br><b>Руководство региона:</b> Губернатор Смоленской области Островский Алексей Владимирович <br><b>Поддержка инвестора:</b> Департамент инвестиционного развития Смоленской области
+                    .content--slider--block.slider--block--h2
+                        .slider--wrapper#slider-wrapper
+                            .slide(style="background: url(img/slider2.jpg)")                 
+                            .slide(style="background: url(img/slider2.jpg)")
+                        ul.slider--nav
+                            li#sl-left: <div class="middle"><i></i></div>
+                            li#sl-right: <div class="middle"><i></i></div>
+        include include/footer.jade
+                    
+
+
+                        

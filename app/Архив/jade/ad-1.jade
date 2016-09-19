@@ -1,0 +1,75 @@
+doctype html
+html
+  head
+    include include/head.jade
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700italic,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+  body
+    include include/header.jade      
+    div.wrapper
+        section.administraiton--home--image
+            .content
+                .middle
+                    h1 Административно-территориальное <br> устройство
+        section.administraiton--home--section
+            .content
+                include include/ad-sub-menu.jade
+                .right--block
+                    .title--block(style="background: url(img/bg-title-block.jpg)")
+                        .middle
+                            h2 Административно-территориальное <br> устройство
+                    article
+                        p Смоленская область, в современном понимании, образована <b>27 сентября 1937 года.</b> В настоящий момент входит в состав Центрального федерального округа.
+                    .table-ons
+                    
+                        .one
+                            .one-block
+                                .middle
+                                    div.title Смоленск
+                                        .title-desc областной центр
+                        
+                    
+                        .one
+                            .one-block
+                                .middle
+                                    div.title 2
+                                        .title-desc городских округа
+                        
+                    
+                        .one
+                            .one-block
+                                .middle
+                                    div.title 25
+                                        .title-desc муниципальных <br> районов
+                                            
+                        .one
+                            .one-block
+                                .middle
+                                    div.title 24
+                                        .title-desc муниципальных <br> районов
+                                            
+                        .one
+                            .one-block
+                                .middle
+                                    div.title 278
+                                        .title-desc городских <br> поселения
+                    h4 Крупные города
+                    .content--slider--block
+                        .slider--wrapper#slider-wrapper
+                            .slide(style="background: url(img/smolinsk.jpg)")
+                                .slide-title-block
+                                    span.title Смоленск
+                                    span.title-desc <b>329 тыс.</b> человек                       
+                            .slide(style="background: url(img/smolinsk.jpg)")
+                                .slide-title-block
+                                    span.title Сафоново
+                                    span.title-desc <b>43 тыс.</b> человек
+                        ul.slider--nav
+                            li#sl-left: <div class="middle"><i></i></div>
+                            li#sl-right: <div class="middle"><i></i></div>
+                    h4 Пограничные государства
+                    img(src="img/map.jpg")
+        include include/footer.jade
+                    
+
+
+                        

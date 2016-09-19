@@ -1,0 +1,103 @@
+@import "../grandfile.less";
+// block face hello
+.hello { .bgCC; background: url(../img/hellobg.jpg);
+.ab-tab {height: ~"calc(100% - 120px)"; top:auto; bottom:0px}
+article {float: right; padding-left: 65px; width: 590px;}
+h2 {color: #fff;  margin:20px 5px;} 
+p {color: #fff; margin:20px 5px; line-height: 1.5;}
+.sign {position: relative; height: 65px; margin-top: 45px; float: left;}
+.sign::before{content:''; position: absolute; left: 110%; top:-12px; width: 65px; height: 65px; .bgCCC;
+background: url(../img/sign.png);
+}    
+}
+
+
+@media screen and (min-width:1200px) and (max-width:1400px)   {
+.hello{.ab-tab {height: ~"calc(100% - 90px)";}} 
+    
+}
+@media screen and (min-width:1024px) and (max-width:1199px)   {
+.hello{.ab-tab {height: ~"calc(100% - 80px)";}} 
+  
+.hello article {
+    float: right;
+    padding-left: 45px;
+    width: 560px;
+}   
+    
+    
+}
+
+@media screen and (min-width:768px) and (max-width:999px)   {
+.hello{ position: relative;
+    
+    
+background:#fff;  .ab-tab {height: 100%; top:80px;} } 
+  
+.hello article {
+    float: right;
+    padding-left: 45px;
+    width: 100%;
+}   
+    
+.hello p {
+    color: @coltxt;
+    margin: 20px 5px;
+    line-height: 1.5;
+} 
+    
+.hello h2 {
+    color: @coltxt;
+    margin: 20px 5px;
+}
+
+.hello .sign::before {
+    background: url(../img/sign2.png);
+}
+    
+
+}
+
+@media screen and (min-width:320px) and (max-width:767px)   {
+.hello{ position: relative; min-height: auto; height: 650px;
+    
+    
+background:#fff;  .ab-tab {height: 100%; top:0px;} } 
+  
+.hello article {
+    float: right;
+    padding-left: 0px;
+    width: 100%;
+} 
+    
+.hello .sign {
+    position: relative;
+    height: 65px;
+    margin-top: 45px;
+    float: left;
+    font-size: 12px;
+    width: 50%;
+}
+    
+.hello p {
+    color: @coltxt;
+    margin: 20px 5px;
+    line-height: 1.5;
+} 
+    
+.hello h2 {
+    color: @coltxt;
+    margin: 20px 5px;
+}
+
+.hello .sign::before {
+
+    left: 102%;
+    top: -7px;
+    width: 64px;
+    height: 38px;
+    background: url(../img/sign2.png);
+}
+    
+
+}

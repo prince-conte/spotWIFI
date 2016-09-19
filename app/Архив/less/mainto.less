@@ -1,0 +1,171 @@
+@import "grandfile.less";
+
+
+h1, h2, h3, h4, h5, h6 { .m-speed; font-weight: 700;}
+
+h1 {font-size: 56px;}
+h2 {font-size: 30px;}
+h3 {font-size: 28px;}
+h4 {font-size: 20px;}
+h6 {font-size: 13px;}
+
+.wrap {float: left; width: 100%}
+.index {top:100%;}
+.inner{}
+.content {position: relative; display: block; margin: 0 auto; width: 1180px;}
+section {min-height: 900px; width: 100%}
+.fp-tableCell {position: relative !important; .ab-tab}
+
+// block "logo" for header / footer
+.logo-b {position: relative; float: left; display: inline-table; height: 100%;
+.logo {display: block; height: 64px; width: 216px; margin-top: -17px; margin-left: 32px; .bgCCC;
+background: url(../img/logo.png);}    
+}
+    
+
+
+
+.sca{position: fixed; top:0px; left: 0px; height: 90px; width: 100%; background: #fff; box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.07); z-index: 999999999;}
+
+.shadow {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.07);
+  position: absolute;
+  left: 0px;
+  top: 2700px;
+  width: 1440px;
+  height: 138px;
+  z-index: 180;
+}
+
+
+
+//wrapper for all page besides index
+
+.wrapper {float: left; width: 100%; margin-top: 120px; background: #f5f4f4;
+section, footer {float: left; width: 100%; min-height: 150px;}
+}
+
+
+    
+@import "include/header.less";
+
+@import "include/home-index.less";
+
+@import "include/hello.less";
+
+@import "include/konk-s.less";
+
+@import "include/news-index.less";
+
+@import "include/invest-index.less";
+
+@import "include/footer.less";
+
+@import "include/ad--styles.less";
+
+
+
+
+
+
+
+@media screen and (min-width:1200px) and (max-width:1400px)   {
+section {min-height: 800px !important;}
+h3 {
+    font-size: 24px;
+}    
+
+}
+
+
+
+
+@media screen and (min-width:1000px) and (max-width:1199px)   {
+section {min-height: 700px !important;}
+h3 {
+    font-size: 20px;
+}    
+    
+h2 {
+    font-size: 24px;
+
+}
+    
+.hello p {
+    margin: 10px 5px;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:999px)   {
+    
+.wrap {
+position: absolute !important; top:0px !important; left:0px !important;    
+height: auto !important; float: left !important; width: 100% !important; display: block !important;}
+    
+section {min-height: 500px !important;}
+h3 {
+    font-size: 20px;
+}    
+    
+h2 {
+    font-size: 24px;
+
+}
+    
+.hello p {
+    margin: 10px 5px;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px)   {
+    
+.wrap {
+position: absolute !important; top:0px !important; left:0px !important;    
+height: auto !important; float: left !important; width: 100% !important; display: block !important;}
+    
+section {min-height: none !important;}
+
+h3 {
+    font-size: 20px;
+}    
+    
+h2 {
+    font-size: 24px;
+
+}
+    
+.hello p {
+    margin: 10px 5px;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.konk-s .konk-table {
+    float: left;
+    width: 100%;
+    margin-top: 18px;
+}   
+    
+.administraiton--home--section .right--block article .display-image-block .image-block {
+    float: left;
+    height: 265px;
+    border: solid 0px #fff;
+    width: 100%;
+    margin: 10px 0;
+}
+    
+}
+
+
+
+
+

@@ -1,0 +1,588 @@
+@import "../grandfile.less";
+// nav
+.nav-b {position: relative; float: left; display: inline-table; height: 100%;
+nav {display: block; margin-left: 45px;
+a {color: @coltxt2; font-size: 12px; font-weight: 600; margin: -10px 10px; text-transform: uppercase; } 
+a:hover {color: @colfirm;}
+}} 
+
+// serch block
+.serch-sub-block {position: fixed; top:-120px; left: 0px; height: 120px; width: 100%; background: #fff; box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.07); z-index: 9999999999999; .m-speed;
+
+ 
+.serch-sub-block-form {float: left; position: relative;
+input {padding: 14px 23px 17px; color: @coltxt; font-size: 15px; border: solid 2px #ebebeb; width: 560px; font-weight: 600;
+border-radius: 35px;}
+i {position: absolute; right: 23px; top: 14px;; font-size: 28px; display: inline-block; margin-left: -55px; cursor: pointer; margin-bottom: -10px; .m-speed;}
+i:hover {color: @colfirm}
+}  
+.close-search {float: left; display: inline-block; font-size: 21px; margin-left: 40px; font-weight: 700; margin-top: 9px;.m-speed;}
+.close-search:hover {color: @colfirm}    
+}
+
+
+
+// menu-sub block
+.menu-sub-block {position: fixed; top:-120px; left: 0px; height: 120px; width: 100%; background: #fff; box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.07);  z-index: 9999999999999; .m-speed; display: none;
+.content {width: 1350px; height: 100%; .m-speed;} 
+    nav {display: block; margin-top: -8px;margin-left: 70px;}    
+
+// humburger
+.humb-b {position: relative; float: left; display: inline-table; height: 100%; width: 96px; 
+span {position: absolute; top:7px; left:5px; height: 2px; width: 14px;}
+.humb { position: relative; display: block; width: 42px; height: 42px; border-radius: 25px; background: @colfirm;
+span {position: absolute; display: block; height: 2px; width: 14px; background: #fff; left:14px; top:20px; .pov1;}
+span::before {content:''; position: absolute; display: block; height: 2px; width: 14px; background: #fff; left:0px; bottom:0px; .pov2;}
+
+}
+.humb::before {content: 'закрыть'; position: absolute; right: -70px; top: 12px; font-size: 12px; font-weight: 700; color: #8f8f8f;
+text-transform: uppercase;} 
+
+}
+
+}
+.active-sub {top:0px !important; display: block !important;}
+
+// header block
+header {position: fixed; top:0px; left: 0px; height: 120px; width: 100%; background: #fff; box-shadow: 0px 1px 50px 0px rgba(0, 0, 0, 0.07); z-index: 9999999999999;
+.content {width: 1350px; height: 100%;}   
+.humb-b {position: relative; float: left; display: inline-table; height: 100%; width: 96px; 
+span {position: absolute; top:7px; left:5px; height: 2px; width: 14px;}
+.humb { position: relative; display: block; width: 42px; height: 42px; border-radius: 25px; background: @colfirm;
+span {position: absolute; display: block; height: 2px; width: 14px; background: #fff; left:14px; top:16px;}
+span::before {content:''; position: absolute; display: block; height: 2px; width: 14px; background: #fff; left:0px; bottom:-4px;}
+span::after {content:''; position: absolute; display: block; height: 2px; width: 100%; background: #fff; left:0px; bottom:-8px;}
+}
+.humb::before {content: 'меню'; position: absolute; right: -55px; top: 11px; font-size: 12px; font-weight: 700; color: #8f8f8f;
+text-transform: uppercase;}   
+}
+
+
+.nav-b {position: relative; float: left; display: inline-table; height: 100%;
+nav {display: block; margin-left: 45px;
+a {color: @coltxt2; font-size: 12px; font-weight: 600; margin: -10px 10px; text-transform: uppercase; } 
+a:hover {color: @colfirm;}
+}}  
+
+    
+.linked-b {position: relative; float: left; display: inline-table; height: 100%;  margin-top: -4px; 
+.sl-v {position: relative; margin-left:120px; display: inline-block; color: #2a2a2a; font-weight: 600; font-size: 13px; 
+border-bottom: 1px dashed;  
+    }.sl-v:hover {color: @colfirm;}
+.sl-v::before {content: ''; position: absolute; display: block; left:-28px; top:6px; width: 16px; height: 12px;
+background: url(../img/sl-v.png); .bgCCC;}
+.sear{ position: relative; margin-left:45px; display: inline-block; top:6px; width: 18px; height: 18px;
+background: url(../img/sear.png); .bgCCC;}
+}
+
+.lang-b{position: relative; float: right; display: inline-table;  height: 100%; 
+.lang {position: relative; display: block; margin-top: -4px; background: @coltxt; border-radius: 20px; width: 87px;
+.lsr {position: relative; display: none; padding: 12px 20px;  font-size: 14px; font-weight: 700; color: #fff;}
+.active {display: block;}       
+}
+#sb {position: absolute; width: 16px; height: 10px; background: url(../img/sty-b.png); .bgCCC; right: 12px; top: 17px; }
+
+}
+  
+   
+ }
+
+@media screen and (min-width:1200px) and (max-width:1400px)   {
+
+header {height: 90px;}   
+.menu-sub-block {height: 90px;    top: -90px;
+.nav-b nav a {font-size: 10px;} } 
+    
+.serch-sub-block .serch-sub-block-form input {
+    padding: 12px 23px 15px;
+    font-size: 13px;
+    width: 500px;
+    border-radius: 35px;
+}
+    
+
+.serch-sub-block .serch-sub-block-form i {
+    right: 20px;
+    top: 12px;
+    font-size: 24px;
+}
+
+.serch-sub-block {
+    top: -90px;
+    height: 90px;
+}  
+    
+.menu-sub-block .content {
+    width: 1175px;
+    height: 100%;
+}
+    
+.nav-b nav a {
+    font-size: 10px;
+}   
+    
+
+header .content {
+    width: 1175px;
+}  
+
+    
+//logo   
+.logo-b .logo {
+    height: 64px;
+    width: 143px;
+    margin-top: -9px;
+    margin-left: 32px;
+
+}
+    
+
+header .linked-b .sl-v {
+    margin-left: 75px;
+    font-size: 10px;
+}
+    
+header .linked-b .sear {
+    margin-left: 30px;
+}
+    
+    
+header .linked-b .sl-v::before {
+    left: -28px;
+    top: 4px;
+    width: 16px;
+    height: 12px;
+}
+    
+    
+header .lang-b .lang .lsr {
+    padding: 9px 20px;
+    font-size: 12px;
+    color: #fff;
+}
+    
+header .lang-b #sb {
+    top: 12px;
+}
+    
+
+}
+
+
+@media screen and (min-width:1000px) and (max-width:1199px)   {
+
+header {height: 80px;}   
+.menu-sub-block {height: 80px;    top: -80px;
+.nav-b nav a {font-size: 10px;} } 
+    
+.serch-sub-block .serch-sub-block-form input {
+    padding: 12px 23px 15px;
+    font-size: 13px;
+    width: 500px;
+    border-radius: 35px;
+}
+    
+
+.serch-sub-block .serch-sub-block-form i {
+    right: 20px;
+    top: 12px;
+    font-size: 24px;
+}
+
+.serch-sub-block {
+    top: -80px;
+    height: 80px;
+}  
+    
+.content {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 100%; padding: 0 25px;
+}
+    
+.menu-sub-block .humb-b .humb::before {
+    display: none;
+}
+   
+.menu-sub-block nav {
+    display: block;
+    margin-top: 2px;
+    margin-left: 0px;
+}
+
+.menu-sub-block .content {
+    width:  100%;
+    height: 100%;
+    padding: 0 25px
+}
+    
+.nav-b nav a {
+    font-size: 10px;
+}   
+    
+
+header .content {
+    width: 100%;
+    padding: 0 25px
+}  
+
+    
+//logo   
+.logo-b .logo {
+    height: 64px;
+    width: 143px;
+    margin-top: -13px;
+    margin-left: 32px;
+
+}
+    
+
+header .linked-b .sl-v {
+    margin-left: 75px;
+    font-size: 10px;
+}
+    
+header .linked-b .sear {
+    margin-left: 30px;
+}
+    
+    
+header .linked-b .sl-v::before {
+    left: -28px;
+    top: 4px;
+    width: 16px;
+    height: 12px;
+}
+    
+    
+header .lang-b .lang .lsr {
+    padding: 9px 20px;
+    font-size: 12px;
+    color: #fff;
+}
+    
+header .lang-b #sb {
+    top: 12px;
+}
+
+header .nav-b nav {
+    display: none;
+    margin-left: 45px;
+}
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:999px)   {
+
+header {height: 80px; }   
+.menu-sub-block {height: 80px;    top: -80px; 
+.nav-b nav a {font-size: 8px; margin-right: 5px} } 
+    
+.menu-sub-block .humb-b {
+    width: 55px;
+}
+
+.serch-sub-block .serch-sub-block-form input {
+    padding: 12px 23px 15px;
+    font-size: 13px;
+    width: 500px;
+    border-radius: 35px;
+}
+    
+
+    
+    
+
+.serch-sub-block .serch-sub-block-form i {
+    right: 20px;
+    top: 12px;
+    font-size: 24px;
+}
+
+.serch-sub-block {
+    top: -80px;
+    height: 80px; 
+}  
+    
+.content {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 100%; padding: 0 25px;
+}
+    
+.menu-sub-block .humb-b .humb::before {
+    display: none;
+}
+   
+.menu-sub-block nav {
+    display: block;
+    margin-top: -6px;
+    margin-left: 0px;
+}
+
+.menu-sub-block .content {
+    width:  100%;
+    height: 100%;
+    padding: 0 25px
+}
+    
+.nav-b nav a {
+    font-size: 10px;
+}   
+    
+
+header .content {
+    width: 100%;
+    padding: 0 25px
+}  
+
+    
+//logo   
+.logo-b .logo {
+    height: 64px;
+    width: 143px;
+    margin-top: -13px;
+    margin-left: 32px;
+
+}
+    
+
+header .linked-b .sl-v {
+    margin-left: 75px;
+    font-size: 10px;
+}
+    
+header .linked-b .sear {
+    margin-left: 30px;
+}
+    
+    
+header .linked-b .sl-v::before {
+    left: -28px;
+    top: 4px;
+    width: 16px;
+    height: 12px;
+}
+    
+    
+header .lang-b .lang .lsr {
+    padding: 9px 20px;
+    font-size: 12px;
+    color: #fff;
+}
+    
+header .lang-b #sb {
+    top: 12px;
+}
+
+header .nav-b nav {
+    display: none;
+    margin-left: 45px;
+}
+
+}
+
+
+@media screen and (min-width:320px) and (max-width:767px)   {
+
+header {height: 130px; }
+    
+header .humb-b {
+
+    height: 50%;
+}
+    
+.logo-b {
+    position: relative;
+    height: 50%;
+}
+    
+header .linked-b {
+margin-top: -70px;
+    height: 50%;
+}
+       
+    
+.menu-sub-block {height: 100%;    top: -100%; display: none;
+.nav-b nav a {font-size: 8px; margin-right: 5px} } 
+    
+.menu-sub-block .humb-b {
+    position: absolute; display: block; top:25px; left: 25px;
+    width: 55px;
+}
+
+
+    
+.serch-sub-block .serch-sub-block-form {
+    float: left;
+    position: relative;
+    width: 100%;
+}  
+    
+    
+.serch-sub-block .serch-sub-block-form input {
+    position: relative;
+    padding: 12px 23px 15px;
+    font-size: 13px;
+    width: 100%;
+    border-radius: 35px;
+    box-sizing: border-box;
+}
+    
+.serch-sub-block .close-search {
+    float: left;
+    display: block;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-top: 9px;
+    margin: 10px 0 0;
+
+}    
+    
+
+.serch-sub-block .serch-sub-block-form i {
+    right: 20px;
+    top: 12px;
+    font-size: 24px;
+}
+
+.serch-sub-block {  
+    top: -130px;
+    height: 130px; 
+}  
+    
+.content {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 100%; padding: 0 25px;
+}
+    
+.menu-sub-block .humb-b .humb::before {
+    display: none;
+}
+   
+.menu-sub-block nav {
+    display: block;
+    margin-top: -6px;
+    margin-left: 0px;
+}
+    
+.menu-sub-block .humb-b {
+    position: absolute;
+    display: block;
+    top: 12px;
+    left: 25px;
+    width: 55px;
+    height: auto;
+}
+
+.menu-sub-block .content {
+    width:  100%;
+    height: 100%;
+    padding: 0 25px
+}
+    
+.nav-b {
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 0px; 
+    padding: 10px 25px;
+    width: 100%;
+    display: inline-table;
+    height: 100%;
+}
+    
+.menu-sub-block .nav-b nav a {
+    display: block;
+    font-size: 18px;
+    margin: 10px 0;
+}   
+    
+
+header .content {
+    width: 100%;
+    padding: 0 25px
+}  
+
+    
+//logo   
+.logo-b .logo {
+    height: 64px;
+    width: 143px;
+    margin-top: -13px;
+    margin-left: 15px;
+
+}
+    
+
+header .linked-b .sl-v {
+    margin-left: 0px;
+    font-size: 10px;
+}
+ header .linked-b .sl-v::before {
+    margin-left: 0px;
+     display: none;
+    font-size: 10px;
+}
+    
+header .linked-b .sear {
+    margin-left: 30px;
+}
+    
+    
+header .linked-b .sl-v::before {
+    left: -28px;
+    top: 4px;
+    width: 16px;
+    height: 12px;
+}
+    
+    
+header .lang-b .lang .lsr {
+    padding: 9px 20px;
+    font-size: 12px;
+    color: #fff;
+}
+    
+header .lang-b #sb {
+    top: 12px;
+}
+
+header .nav-b nav {
+    display: none;
+    margin-left: 45px;
+}
+    
+header .nav-b {
+    position: relative;
+    float: left;
+    display: inline-table;
+    height: 50%;
+}
+    
+header .lang-b .lang {
+    position: relative;
+    display: block;
+    margin-top: -4px;
+    background: #3b3b3b;
+    border-radius: 20px;
+    width: 87px;
+}
+    
+header .lang-b {
+    position: absolute;
+    float: right;
+    display: inline-table;
+    height: 100%;
+    top: 33px;
+    right: 10px;
+}
+
+}
+
